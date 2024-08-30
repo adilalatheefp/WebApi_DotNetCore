@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeManagement.Contracts\EmployeeManagement.CommonContracts.csproj" />
+    <ProjectReference Include="..\EmployeeManagement.Repository\EmployeeManagement.DataAccess.csproj" />
+    <ProjectReference Include="..\EmployeeManagement.Services\EmployeeManagement.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
